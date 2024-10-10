@@ -40,6 +40,12 @@ You can access the sample code that this article is based on in the [sp-dev-fx-e
     npm install office-ui-fabric-react  --save
     ```
 
+1. Enter the following to ensure it uses the correct version of React and React-dom indicated in [SPFx development environment compatibility](../../compatibility.md#spfx-development-environment-compatibility).
+
+    ```console
+    npm instal react@17.0.1 react-dom@17.0.1 --save-exact
+    ```
+
 1. Open your project folder in your code editor. This article uses Visual Studio Code in the steps and screenshots, but you can use any editor that you prefer. To open the folder in Visual Studio Code, use the following command in the console:
 
     ```console
